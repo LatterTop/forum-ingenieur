@@ -32,6 +32,17 @@ import {
   Github
 } from 'lucide-react';
 
+import geipiLogo from "./assets/logos/geipi.png";
+import avenirLogo from "./assets/logos/avenir.png";
+import advanceLogo from "./assets/logos/advance.png";
+import puissanceLogo from "./assets/logos/puissance.png";
+import insaLogo from "./assets/logos/insa.png";
+
+import xLogo from "./assets/logos/x.png";
+import minesLogo from "./assets/logos/mines.png";
+import centraleLogo from "./assets/logos/centrale.png";
+import ccinpLogo from "./assets/logos/ccinip.png";
+
 const App = () => {
   const [selectedSpec, setSelectedSpec] = useState(null);
   const [showShareModal, setShowShareModal] = useState(false);
@@ -108,31 +119,31 @@ const App = () => {
     { 
       name: "GEIPI Polytech", 
       desc: "35 écoles publiques, idéal pour la diversité des spécialités.", 
-      logo: "https://upload.wikimedia.org/wikipedia/fr/4/45/Logo_GEIPI.PNG",
+      logo: geipiLogo,
       url: "https://www.geipi-polytech.org/" 
     },
     { 
       name: "Concours Avenir", 
       desc: "Le plus sélectif du privé (ESILV, ECE, ESTACA).", 
-      logo: "https://www.concoursavenir.fr/sites/avenir/files/logo-concours-avenir-png-1-png.png",
+      logo: avenirLogo,
       url: "https://www.concoursavenir.fr/" 
     },
     { 
       name: "Concours Advance", 
       desc: "Informatique et Aero (EPITA, IPSA, Sup'Biotech).", 
-      logo: "https://www.concours-advance.fr/img/logo-concours-advance.png",
+      logo: advanceLogo,
       url: "https://www.concours-advance.fr/" 
     },
     { 
       name: "Puissance Alpha", 
       desc: "Plus de 18 écoles polyvalentes (ESEO, ISEN).", 
-      logo: "https://www.puissance-alpha.fr/wp-content/uploads/2021/09/Logo-Puissance-Alpha-HD-1.png",
+      logo: puissanceLogo,
       url: "https://www.puissance-alpha.fr/" 
     },
     { 
       name: "Réseau INSA", 
       desc: "Admission sur dossier et entretien (Excellence académique).", 
-      logo: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Insa.png",
+      logo: insaLogo,
       url: "https://www.groupe-insa.fr/" 
     }
   ];
@@ -141,25 +152,25 @@ const App = () => {
     { 
       name: "X-ENS", 
       desc: "Polytechnique et les ENS. Le Graal mathématique.", 
-      logo: "https://upload.wikimedia.org/wikipedia/fr/4/4c/Polytechnique_logo.png",
+      logo: xLogo,
       url: "https://www.polytechnique.edu/" 
     },
     { 
       name: "Mines-Ponts", 
       desc: "Pour les grandes écoles techniques et prestigieuses.", 
-      logo: "https://upload.wikimedia.org/wikipedia/fr/c/c2/Logo_Mines_Ponts.png",
+      logo: minesLogo,
       url: "https://www.concours-mines-ponts.fr/" 
     },
     { 
       name: "CentraleSupélec", 
       desc: "Toutes les écoles Centrale (Profils leaders).", 
-      logo: "https://upload.wikimedia.org/wikipedia/fr/e/ef/LogoCS.png",
+      logo: centraleLogo,
       url: "https://www.concours-centrale-supelec.fr/" 
     },
     { 
       name: "CCINP", 
       desc: "Plus de 30 écoles d'ingénieurs de spécialités publiques.", 
-      logo: "https://upload.wikimedia.org/wikipedia/fr/0/03/Logo_concours_CCINP.PNG",
+      logo: ccinpLogo,
       url: "https://www.concours-inp.fr/" 
     }
   ];
