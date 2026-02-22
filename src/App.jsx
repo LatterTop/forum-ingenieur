@@ -634,13 +634,6 @@ const App = () => {
       </div>
 
       <footer className="max-w-6xl mx-auto flex flex-col items-center gap-6 py-10">
-        <button 
-          onClick={() => setShowShareModal(true)}
-          className="flex items-center gap-3 bg-indigo-600 text-white px-8 py-4 rounded-full font-bold shadow-xl hover:bg-indigo-700 hover:scale-105 transition-all"
-        >
-          <Share2 size={20} />
-          DÉPLOYER / GÉNÉRER QR CODE
-        </button>
         <p className="text-slate-400 text-[10px] italic">© 2026 - Forum de l'Orientation - Fiche réalisée pour le stand Filière Ingénieur</p>
       </footer>
     </div>
