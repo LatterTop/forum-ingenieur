@@ -159,7 +159,7 @@ const App = () => {
       name: "Mines-Ponts", 
       desc: "Pour les grandes écoles techniques et prestigieuses.", 
       logo: minesLogo,
-      url: "https://www.concours-mines-ponts.fr/" 
+      url: "https://concoursminesponts.fr/" 
     },
     { 
       name: "CentraleSupélec", 
@@ -171,7 +171,7 @@ const App = () => {
       name: "CCINP", 
       desc: "Plus de 30 écoles d'ingénieurs de spécialités publiques.", 
       logo: ccinpLogo,
-      url: "https://www.concours-inp.fr/" 
+      url: "https://www.concours-commun-inp.fr/fr/index.html" 
     }
   ];
 
